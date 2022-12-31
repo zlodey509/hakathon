@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hakathon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  
+ </head>
+ <body>
+ 	<header class="menu">
+ 		<div class="container">
+ 			<div class="menu__burger">
+ 				MENU
+ 				<img src="img/burger.svg" alt="">
+ 			</div>
+ 			<div class="menu__items">
+ 				<div class="menu__items1 col-lg-2 col-12">
+	 				<img src="img/logo.svg" alt="">
+	 				<span>Hackathon take <br> one million dollars</span>
+	 			</div>
+	 			<div class="menu__items2 col-lg-7 col-12">
+					<ul>
+						<li><a href="#">ABOUT THE EVENT</a></li>
+						<li><a href="#">CONDITIONS AND PRIZES</a></li>
+						<li><a href="#">WHAT TO READ</a></li>
+						<li><a href="#">PARTICIPATE</a></li>
+						<li><a href="#">ORGANIZERS</a></li>
+					</ul>
+	 			</div>
+	 			<div class="menu__items3 col-lg-1 col-12">
+	 				<ul>
+	 					<li><a href="#">RU</a></li>
+	 					<li><a href="#">EN</a></li>
+	 				</ul>
+	 			</div>
+	 			<button class="menu__items4">
+	 				<span>SEND A REQUEST</span>
+	 			</button>
+ 			</div>
+ 		</div>
+ 	</header>
+ 	<div class="introduction col-12">
+ 		<div class="introduction__item1">
+ 			<span>Hakathon</span>
+ 		</div>
+ 		<div class="introduction__item2">
+ 			<div class="introduction__item2__text">
+ 				<span>3D.ru hosts an online event for the entire 3D printing community with a prize fund and specialists from the industry as mentors and jury.</span>
+ 			</div>	
+ 		</div>
+ 	</div>
+ 	<div class="description d-flex">
+ 		<div class="description__item1 col-md-8 col-12">
+ 			<div class="cubes">
+ 				<div class="cube" id="cube1">
+ 					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</span>
+ 					<p>23.06.2021</p>
+ 					<div class="cube-left"></div>
+ 					<div class="cube-back"></div>
+ 				</div>
+ 				<div class="cube" id="cube2">
+ 					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</span>
+ 					<p>23.06.2021</p>
+ 					<div class="cube-left"></div>
+ 					<div class="cube-back"></div>
+ 				</div>
+ 				<div class="cube" id="cube3">
+ 					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</span>
+ 					<p>23.06.2021</p>
+ 					<div class="cube-left"></div>
+ 					<div class="cube-back"></div>
+ 				</div>
+ 				<div class="mini-cube">
+ 					<div class="cube-left"></div>
+ 					<div class="cube-back"></div>
+ 				</div>
+ 			</div>
+ 			<div class="squares d-flex">
+ 				<div class="square col-sm-3 col-6" id="sq1">
+ 					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</span>
+ 					<p>23.06.2021</p>
+ 				</div>
+ 				<div class="square col-sm-3 col-6" id="sq2">
+ 					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</span>
+ 					<p>23.06.2021</p>
+ 				</div>
+ 				<div class="square col-sm-3 col-6" id="sq3">
+ 					<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</span>
+ 					<p>23.06.2021</p>
+ 				</div>
+ 			</div>
+ 		</div>
+ 		<div class="description__item2 col-md-3 col-9">
+ 			<span id="description__item2__span">Anyone can participate and present their ideas, regardless of experience and specialization: as a lone amateur with a personal printer, as well as an additive technology engineer, an expert chemist or an IT specialist.</span>
+ 			<br>
+ 			<button class="menu__items4">
+ 				<span>SEND A REQUEST</span>
+ 			</button>
+ 		</div>
+ 	</div>
+ 	
+ 	<div class="conditions-quote">
+ 		<div class="quote d-flex">
+ 			<div class="quote__img quote__top"></div>
+ 			<div class="quote__text">
+ 				Anyone can participate and present their ideas, regardless of experience and specialization: as a lone amateur with a personal printer, as well as an additive technology engineer, an expert chemist or an IT specialist.
+ 			</div>
+ 			<div class="quote__img quote__bottom"></div>
+ 		</div>
+ 		<div class="conditions d-flex">
+ 			<div class="conditions__item1 d-flex col-6">
+ 			<span class="col-6">The industry needs to move forward and this is in our common strength.</span>
+ 		</div>
+ 		<div class="conditions__item2 d-flex col-6">
+ 			<span id="conditions__item2_span1">Condition</span>
+ 			<span id="conditions__item2_span2">To participate, you need to <span id="conditions__item2_span2_register">register</span> and prepare a small presentation of your project - whether it is a completely new idea that requires testing, or ready-made developments in any area of ​​3D printing.</span>
+ 			<div class="conditions__item2__figures d-flex">
+ 				<span id="conditions__item2_span3">Polymer</span>
+	 			<span id="conditions__item2_span4">Ideas for process optimization</span>
+	 			<span id="conditions__item2_span5">Software</span>
+	 			<span id="conditions__item2_span6">Printer with original nozzle.</span>
+ 			</div>
+ 			<span class="col-12" id="conditions_hide_span">The industry needs to move forward and this is in our common strength.</span>
+ 			<span id="conditions__item2_span7">If you are in doubt whether your idea can participate in the event - do not hesitate and feel free to follow the <a href="#">link</a>.</span>
+ 		</div>
+ 		</div>
+ 	</div>
+ 	<div class="participants d-flex">
+ 		<div class="cube" id="cube4">
+ 			<div class="participants__cube__text d-flex">
+ 				<span id="participants__cube__text1">! deadline</span>
+ 				<span id="participants__cube__text2">01/07</span>
+ 				<span id="participants__cube__text3">The work must be sent before 01.07 at 18:00</span>
+ 			</div>
+ 			<div class="cube-left"></div>
+ 			<div class="cube-back"></div>
+ 		</div>
+ 		<div class="square">
+ 			<div class="participants__cube__text d-flex">
+ 				<span id="participants__cube__text1">! deadline</span>
+ 				<span id="participants__cube__text2">01/07</span>
+ 				<span id="participants__cube__text3">The work must be sent before 01.07 at 18:00</span>
+ 			</div>
+ 		</div>
+ 		<div class="participants__content offset-md-5 d-flex">
+ 			<span>
+ 				Participants with the best projects, which will be determined by the jury, will receive funding and the opportunity to work together with the largest industrial 3D printing company, get new experience and see everything from the inside with their own eyes.see everything from the inside with your own eyes.
+ 			</span>
+ 		</div>
+ 	</div>
+ 	<div class="million_dollar_div">
+ 		<span class="one">
+ 			1
+ 			<div class="one__img">
+ 				<img id="p1" src="img/1p_of1.png" alt="">
+ 				<img id="p2" src="img/2p_of1.png" alt="">
+ 				<img id="p3" src="img/3p_of1.png" alt="">
+ 				<img id="p4" src="img/4p_of1.png" alt="">
+ 			</div>
+ 		</span>
+ 		<div class="million_dollars col-3 offset-5">million dollars</div>
+ 		<div class="million_dollar_description offset-md-9">maximum investment on the project</div>
+ 		<button class="million_dollar_button offset-md-9">
+ 			SEND A REQUEST
+ 		</button>
+ 	</div>
+ 	<div class="details">
+ 		<div class="details__upcontent">
+ 			<div class="details__upcontent1 offset-md-2">Even if you don't have ready-made projects, you can start working right now. There is enough time — you need to send a ready-made solution before 01.07 at 18: 00 hours.</div>
+ 			<img src="img/3dru_maket.png" alt="">
+ 			<div class="details__upcontent2 offset-md-7">If you already have a completed project or a conscious final idea, feel free to send it. Several presentations are accepted — the more ideas and developments, the better for everyone.</div>
+ 		</div>
+ 		<div class="faq col-9">
+ 			<div class="faq__title">FAQ</div>
+ 			<div class="faq__description d-flex">
+ 				<div class="faq__left col-12 col-md-6">
+ 					<ul>
+ 						<li>
+ 							<div class="faq__question-rotate d-flex">
+ 								<div class="faq__question">
+ 									Who can participate can participate can participate? 
+ 								</div>
+ 								<div class="non_rotate_div"></div>
+ 								<div class="rotate_div"></div>
+ 							</div>
+ 							<div class="faq__answer">
+ 								<div class="faq__answer__text">
+ 									Even if you don't have ready-made projects, you can start working right now. There is enough time — you need to send a ready-made solution before 01.07 at 18: 00 hours.
+ 								</div>
+ 							</div>
+ 						</li>
+ 						<li>
+ 							<div class="faq__question-rotate d-flex">
+ 								<div class="faq__question">
+ 									Who can participate can participate can participate? 
+ 								</div>
+ 								<div class="non_rotate_div"></div>
+ 								<div class="rotate_div"></div>
+ 							</div>
+ 							<div class="faq__answer">
+ 								<div class="faq__answer__text">
+ 									Even if you don't have ready-made projects, you can start working right now. There is enough time — you need to send a ready-made solution before 01.07 at 18: 00 hours.
+ 								</div>
+ 							</div>
+ 						</li>
+ 						<li>
+ 							<div class="faq__question-rotate d-flex">
+ 								<div class="faq__question">
+ 									Who can participate can participate can participate? 
+ 								</div>
+ 								<div class="non_rotate_div"></div>
+ 								<div class="rotate_div"></div>
+ 							</div>
+ 							<div class="faq__answer">
+ 								<div class="faq__answer__text">
+ 									Even if you don't have ready-made projects, you can start working right now. There is enough time — you need to send a ready-made solution before 01.07 at 18: 00 hours.
+ 								</div>
+ 							</div>
+ 						</li>
+ 						<li>
+ 							<div class="faq__question-rotate d-flex">
+ 								<div class="faq__question">
+ 									Who can participate can participate can participate? 
+ 								</div>
+ 								<div class="non_rotate_div"></div>
+ 								<div class="rotate_div"></div>
+ 							</div>
+ 							<div class="faq__answer">
+ 								<div class="faq__answer__text">
+ 									Even if you don't have ready-made projects, you can start working right now. There is enough time — you need to send a ready-made solution before 01.07 at 18: 00 hours.
+ 								</div>
+ 							</div>
+ 						</li>
+ 						<li>
+ 							<div class="faq__question-rotate d-flex">
+ 								<div class="faq__question">
+ 									Who can participate can participate can participate? 
+ 								</div>
+ 								<div class="non_rotate_div"></div>
+ 								<div class="rotate_div"></div>
+ 							</div>
+ 							<div class="faq__answer">
+ 								<div class="faq__answer__text">
+ 									Even if you don't have ready-made projects, you can start working right now. There is enough time — you need to send a ready-made solution before 01.07 at 18: 00 hours.
+ 								</div>
+ 							</div>
+ 						</li>
+ 						<li>
+ 							<div class="faq__question-rotate d-flex">
+ 								<div class="faq__question">
+ 									Who can participate can participate can participate? 
+ 								</div>
+ 								<div class="non_rotate_div"></div>
+ 								<div class="rotate_div"></div>
+ 							</div>
+ 							<div class="faq__answer">
+ 								<div class="faq__answer__text">
+ 									Even if you don't have ready-made projects, you can start working right now. There is enough time — you need to send a ready-made solution before 01.07 at 18: 00 hours.
+ 								</div>
+ 							</div>
+ 						</li>
+ 					</ul>
+ 				</div>
+ 				<div class="faq_right col-12 col-md-6">
+ 					<ul>
+ 						<li>
+ 							<div class="faq__question-rotate d-flex">
+ 								<div class="faq__question">
+ 									Who can participate can participate can participate? 
+ 								</div>
+ 								<div class="non_rotate_div"></div>
+ 								<div class="rotate_div"></div>
+ 							</div>
+ 							<div class="faq__answer">
+ 								<div class="faq__answer__text">
+ 									Even if you don't have ready-made projects, you can start working right now. There is enough time — you need to send a ready-made solution before 01.07 at 18: 00 hours.
+ 								</div>
+ 							</div>
+ 						</li>
+ 						<li>
+ 							<div class="faq__question-rotate d-flex">
+ 								<div class="faq__question">
+ 									Who can participate can participate can participate? 
+ 								</div>
+ 								<div class="non_rotate_div"></div>
+ 								<div class="rotate_div"></div>
+ 							</div>
+ 							<div class="faq__answer">
+ 								<div class="faq__answer__text">
+ 									Even if you don't have ready-made projects, you can start working right now. There is enough time — you need to send a ready-made solution before 01.07 at 18: 00 hours.
+ 								</div>
+ 							</div>
+ 						</li>
+ 						<li>
+ 							<div class="faq__question-rotate d-flex">
+ 								<div class="faq__question">
+ 									Who can participate can participate can participate? 
+ 								</div>
+ 								<div class="non_rotate_div"></div>
+ 								<div class="rotate_div"></div>
+ 							</div>
+ 							<div class="faq__answer">
+ 								<div class="faq__answer__text">
+ 									Even if you don't have ready-made projects, you can start working right now. There is enough time — you need to send a ready-made solution before 01.07 at 18: 00 hours.
+ 								</div>
+ 							</div>
+ 						</li>
+ 						<li>
+ 							<div class="faq__question-rotate d-flex">
+ 								<div class="faq__question">
+ 									Who can participate can participate can participate? 
+ 								</div>
+ 								<div class="non_rotate_div"></div>
+ 								<div class="rotate_div"></div>
+ 							</div>
+ 							<div class="faq__answer">
+ 								<div class="faq__answer__text">
+ 									Even if you don't have ready-made projects, you can start working right now. There is enough time — you need to send a ready-made solution before 01.07 at 18: 00 hours.
+ 								</div>
+ 							</div>
+ 						</li>
+ 						<li>
+ 							<div class="faq__question-rotate d-flex">
+ 								<div class="faq__question">
+ 									Who can participate can participate can participate? 
+ 								</div>
+ 								<div class="non_rotate_div"></div>
+ 								<div class="rotate_div"></div>
+ 							</div>
+ 							<div class="faq__answer">
+ 								<div class="faq__answer__text">
+ 									Even if you don't have ready-made projects, you can start working right now. There is enough time — you need to send a ready-made solution before 01.07 at 18: 00 hours.
+ 								</div>
+ 							</div>
+ 						</li>
+ 						<li>
+ 							<div class="faq__question-rotate d-flex">
+ 								<div class="faq__question">
+ 									Who can participate can participate can participate? 
+ 								</div>
+ 								<div class="non_rotate_div"></div>
+ 								<div class="rotate_div"></div>
+ 							</div>
+ 							<div class="faq__answer">
+ 								<div class="faq__answer__text">
+ 									Even if you don't have ready-made projects, you can start working right now. There is enough time — you need to send a ready-made solution before 01.07 at 18: 00 hours.
+ 								</div>
+ 							</div>
+ 						</li>
+ 					</ul>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<div class="footer">
+ 		<div class="menu">
+	 		<div class="container">
+	 			<div class="menu__items1 col-lg-2 col-12">
+	 				<img src="img/white_logo.svg" alt="">
+	 				<span>Hackathon take <br> one million dollars</span>
+	 			</div>
+	 			<div class="menu__items2 col-lg-7 col-12">
+					<ul>
+						<li><a href="#">ABOUT THE EVENT</a></li>
+						<li><a href="#">CONDITIONS AND PRIZES</a></li>
+						<li><a href="#">WHAT TO READ</a></li>
+						<li><a href="#">PARTICIPATE</a></li>
+						<li><a href="#">ORGANIZERS</a></li>
+					</ul>
+	 			</div>
+	 			<div class="menu__items3 col-lg-1 col-12">
+	 				<ul>
+	 					<li><a href="#">RU</a></li>
+	 					<li><a href="#">EN</a></li>
+	 				</ul>
+	 			</div>
+	 			<button class="menu__items4">
+	 				<span>SEND A REQUEST</span>
+	 			</button>
+	 		</div>
+	 		<div class="watermark">© All rights reserved</div>
+ 		</div>
+ 	</div>
+ 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+ </body>
+</html>
